@@ -5,7 +5,7 @@ website design project
 🌟 About
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: mkrivickas.github.io/44-grupe-serlokas/
+Site published at: https://mkrivickas.github.io/44-grupe-serlokas/
 
 Design: Serlokas
 
