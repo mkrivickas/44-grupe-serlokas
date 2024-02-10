@@ -8,14 +8,21 @@
   <body style="background-color: lightgray">
     <main
       style="
+        display: inline-block;
         background-color: pink;
         width: 50%;
         margin-left: 25%;
         margin-top: 100px;
       "
     >
-      <img src="#" alt="Serlokas su pypke menesienoje" />
-      <div>TEKSTAI...</div>
+      <img
+        src="#"
+        alt="Serlokas su pypke menesienoje"
+        style="background-color: red; width: 35%; float: left"
+      />
+      <div style="background-color: blue; width: 50%; float: right">
+        TEKSTAI...
+      </div>
     </main>
   </body>
 </html>
@@ -24,10 +31,20 @@
 
 Atstumas tarp elementų:
 margin: 10%;
-margin: 10px;       visomis kryptimis aplinkui
+margin: 10px;                   visomis kryptimis aplinkui
 margin-top: 10%;
 margin-right: 10%;
 margin-bottom: 10%;
 margin-left: 10%;
+
+Elementų atvaizdavimo būdas:
+display: none;                  elementas nerodomas
+display: block;                 daugumos default; krenta vertikaliai; bando užimti max plotį
+display: inline;                <span>, <a>, <img>; elgiasi kaip žodžiai
+display: inline-block;          bando būti vienoje eilėje, bet neviršyti tėvinio elemento pločio
+
+Priverstinis elementų pristūmimas horizontaliai
+float: left;
+float: right;
 
  -->
